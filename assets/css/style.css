@@ -56,11 +56,22 @@ section img {
 }
 
 article {
-    width: 75%;
-    display: inline-block;
-    float: left;    
+   
     margin-left: 20px;
 }
+.left_side {
+    float: left;
+    width: 75%;
+    height: 100%;
+}
+
+.right_side {
+    float: right;
+    width: 20%;
+    position: absolute;
+    right: 0;
+    height: auto%;
+} 
 
 .search-engine-optimization,
 .online-reputation-management,
@@ -90,10 +101,6 @@ aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
-    float: right;
-    display: inline-block;
-    width: 20%;
-    height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
